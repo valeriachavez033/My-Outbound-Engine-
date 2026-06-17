@@ -1,0 +1,44 @@
+{
+  "name": "my-outbound-engine",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "@auth/drizzle-adapter": "^1.4.2",
+    "next-auth": "^4.24.7",
+    "drizzle-orm": "^0.31.4",
+    "@vercel/postgres": "^0.9.0",
+    "drizzle-kit": "^0.22.8",
+    "papaparse": "^5.4.1",
+    "pdf-parse": "^1.1.1",
+    "ai": "^3.2.22",
+    "@anthropic-ai/sdk": "^0.24.3",
+    "recharts": "^2.12.7",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.4.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/papaparse": "^5.3.14",
+    "@types/pdf-parse": "^1.1.4",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
